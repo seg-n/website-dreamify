@@ -1,0 +1,123 @@
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Karla", sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #111;
+    color: white;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.nav-item a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.nav-item, .icon-link {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s; 
+    margin-left: 10px;
+}
+
+.nav-item:hover, .icon-link:hover {
+    color: gray; 
+}
+
+.icon-link img {
+    width: 15px;
+}
+
+.logo {
+    width: 20px;
+}
+
+.block1, .block2, .block3 {
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+}
+
+.block1 {
+    background: url('img/bg1.png') no-repeat center center/cover;
+    color: white;
+}
+
+.block2 {
+    background: url('img/bg2.png') no-repeat center center/cover;
+    color: black;
+}
+
+.block3 {
+    background: url('img/bg3.png') no-repeat center center/cover;
+    color: white;
+}
+
+.vision {
+    font-family: "Gentium Plus", serif;
+    font-size: 64px;
+    text-shadow: 2px 2px 4px black;
+}
+
+.para1 {
+    font-size: 18px;
+    text-shadow: 0px 2px 3px black;
+}
+
+.button {
+    display: inline-block;
+    background-color: rgb(46, 46, 46);
+    color: white;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+footer {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    color: white;
+}
+
+.footer-left {
+    text-align: left;
+}
+
+.footer-logo img {
+    width: 60px; 
+    height: auto;
+}
+
+.clientpic {
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+}
