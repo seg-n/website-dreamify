@@ -55,12 +55,12 @@ html, body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 50px;
 }
 
 .block1 {
     background: url('img/bg1.png') no-repeat center center/cover;
     color: white;
+    
 }
 
 .block2 {
@@ -75,7 +75,7 @@ html, body {
 
 .vision {
     font-family: "Gentium Plus", serif;
-    font-size: 64px;
+    font-size: 4rem;
     text-shadow: 2px 2px 4px black;
 }
 
@@ -86,13 +86,26 @@ html, body {
 
 .button {
     display: inline-block;
-    background-color: rgb(46, 46, 46);
-    color: white;
+    background-color: rgb(206, 154, 56);
+    color: rgb(0, 0, 0);
     padding: 10px 20px;
     margin-top: 20px;
     border-radius: 5px;
     text-decoration: none;
+    font-size: 1.2rem;
 }
+
+.buttonc {
+    display: inline-block;
+    background-color: rgb(206, 79, 56);
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
 
 footer {
     background-color: black;
@@ -120,4 +133,16 @@ footer {
     align-items: center;
     text-align: center;
     padding: 50px;
+}
+
+.paraclient {
+    font-size: 1.2rem;
+}
+
+.pourquoi {
+    font-size: 3rem;
+}
+
+.projet {
+    font-size: 4rem;
 }
